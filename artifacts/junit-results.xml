@@ -1,0 +1,324 @@
+<testsuites id="" name="" tests="133" failures="0" skipped="0" errors="0" time="76.837224">
+<testsuite name="tests\seed.seed.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="setup" tests="1" failures="0" skipped="0" time="5.573" errors="0">
+<testcase name="seed: prepare storage state" classname="tests\seed.seed.ts" time="5.573">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\about.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="6" failures="0" skipped="0" time="5.512" errors="0">
+<testcase name="About Me Page - Smoke Tests › about page loads" classname="tests\smoke\about.spec.ts" time="1.018">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › about section heading visible" classname="tests\smoke\about.spec.ts" time="0.887">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › bio or introduction text visible" classname="tests\smoke\about.spec.ts" time="0.94">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › profile or author image visible" classname="tests\smoke\about.spec.ts" time="0.773">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › skills or expertise section" classname="tests\smoke\about.spec.ts" time="0.861">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › social links in about section" classname="tests\smoke\about.spec.ts" time="1.033">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\contact.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="4" failures="0" skipped="0" time="3.215" errors="0">
+<testcase name="Contact - Smoke Tests › contact information is accessible" classname="tests\smoke\contact.spec.ts" time="0.854">
+</testcase>
+<testcase name="Contact - Smoke Tests › email contact is displayed on page" classname="tests\smoke\contact.spec.ts" time="0.847">
+</testcase>
+<testcase name="Contact - Smoke Tests › social media links are present" classname="tests\smoke\contact.spec.ts" time="0.748">
+</testcase>
+<testcase name="Contact - Smoke Tests › footer contains company information" classname="tests\smoke\contact.spec.ts" time="0.766">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\courses.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="4" failures="0" skipped="0" time="2.918" errors="0">
+<testcase name="Courses Page - Smoke Tests › courses page loads successfully" classname="tests\smoke\courses.spec.ts" time="0.731">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards are displayed" classname="tests\smoke\courses.spec.ts" time="0.708">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards contain course information" classname="tests\smoke\courses.spec.ts" time="0.679">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course description or details are visible" classname="tests\smoke\courses.spec.ts" time="0.8">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\home.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.744" errors="0">
+<testcase name="homepage loads" classname="tests\smoke\home.spec.ts" time="0.744">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\my-music.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="10" failures="0" skipped="0" time="7.742" errors="0">
+<testcase name="My Music Page › should load My Music page with correct title" classname="tests\smoke\my-music.spec.ts" time="0.824">
+</testcase>
+<testcase name="My Music Page › should display main heading" classname="tests\smoke\my-music.spec.ts" time="0.895">
+</testcase>
+<testcase name="My Music Page › should display content about music and programming" classname="tests\smoke\my-music.spec.ts" time="0.804">
+</testcase>
+<testcase name="My Music Page › should display &quot;Software Engineer by Day, Musician by Heart&quot; section" classname="tests\smoke\my-music.spec.ts" time="0.768">
+</testcase>
+<testcase name="My Music Page › should display information about Kowall Company" classname="tests\smoke\my-music.spec.ts" time="0.731">
+</testcase>
+<testcase name="My Music Page › should display information about Session band" classname="tests\smoke\my-music.spec.ts" time="0.761">
+</testcase>
+<testcase name="My Music Page › should display gallery with musical photos" classname="tests\smoke\my-music.spec.ts" time="0.721">
+</testcase>
+<testcase name="My Music Page › should have multiple images in gallery" classname="tests\smoke\my-music.spec.ts" time="0.791">
+</testcase>
+<testcase name="My Music Page › should display navigation menu" classname="tests\smoke\my-music.spec.ts" time="0.742">
+</testcase>
+<testcase name="My Music Page › should have working navigation links" classname="tests\smoke\my-music.spec.ts" time="0.705">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\navigation.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="4" failures="0" skipped="0" time="3.295" errors="0">
+<testcase name="Navigation - Smoke Tests › main navigation menu is visible" classname="tests\smoke\navigation.spec.ts" time="0.768">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigation contains home link" classname="tests\smoke\navigation.spec.ts" time="0.738">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to My Music page" classname="tests\smoke\navigation.spec.ts" time="0.773">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to courses/services page" classname="tests\smoke\navigation.spec.ts" time="1.016">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\projects.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="4" failures="0" skipped="0" time="4.062" errors="0">
+<testcase name="Projects Page - Smoke Tests › projects page loads" classname="tests\smoke\projects.spec.ts" time="1.121">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › projects section is visible" classname="tests\smoke\projects.spec.ts" time="1.111">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project items are displayed" classname="tests\smoke\projects.spec.ts" time="1.015">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project links are clickable" classname="tests\smoke\projects.spec.ts" time="0.815">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\sandbowes.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="6" failures="0" skipped="0" time="4.095" errors="0">
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes section loads" classname="tests\smoke\sandbowes.spec.ts" time="0.92">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes project title visible" classname="tests\smoke\sandbowes.spec.ts" time="0.433">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project description visible" classname="tests\smoke\sandbowes.spec.ts" time="0.824">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project gallery or images visible" classname="tests\smoke\sandbowes.spec.ts" time="0.393">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project details or specifications" classname="tests\smoke\sandbowes.spec.ts" time="0.763">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project demo or github link" classname="tests\smoke\sandbowes.spec.ts" time="0.762">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\services.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="chromium" tests="5" failures="0" skipped="0" time="2.795" errors="0">
+<testcase name="Services Page - Smoke Tests › services page loads" classname="tests\smoke\services.spec.ts" time="0.409">
+</testcase>
+<testcase name="Services Page - Smoke Tests › services section heading visible" classname="tests\smoke\services.spec.ts" time="0.775">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service items listed" classname="tests\smoke\services.spec.ts" time="0.379">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service descriptions visible" classname="tests\smoke\services.spec.ts" time="0.376">
+</testcase>
+<testcase name="Services Page - Smoke Tests › call to action visible" classname="tests\smoke\services.spec.ts" time="0.856">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\about.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="6" failures="0" skipped="0" time="15.701" errors="0">
+<testcase name="About Me Page - Smoke Tests › about page loads" classname="tests\smoke\about.spec.ts" time="3.967">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › about section heading visible" classname="tests\smoke\about.spec.ts" time="3.873">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › bio or introduction text visible" classname="tests\smoke\about.spec.ts" time="3.427">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › profile or author image visible" classname="tests\smoke\about.spec.ts" time="1.728">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › skills or expertise section" classname="tests\smoke\about.spec.ts" time="1.252">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › social links in about section" classname="tests\smoke\about.spec.ts" time="1.454">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\contact.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="4" failures="0" skipped="0" time="6.308" errors="0">
+<testcase name="Contact - Smoke Tests › contact information is accessible" classname="tests\smoke\contact.spec.ts" time="1.658">
+</testcase>
+<testcase name="Contact - Smoke Tests › email contact is displayed on page" classname="tests\smoke\contact.spec.ts" time="1.403">
+</testcase>
+<testcase name="Contact - Smoke Tests › social media links are present" classname="tests\smoke\contact.spec.ts" time="1.526">
+</testcase>
+<testcase name="Contact - Smoke Tests › footer contains company information" classname="tests\smoke\contact.spec.ts" time="1.721">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\courses.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="4" failures="0" skipped="0" time="6.178" errors="0">
+<testcase name="Courses Page - Smoke Tests › courses page loads successfully" classname="tests\smoke\courses.spec.ts" time="1.544">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards are displayed" classname="tests\smoke\courses.spec.ts" time="1.719">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards contain course information" classname="tests\smoke\courses.spec.ts" time="1.468">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course description or details are visible" classname="tests\smoke\courses.spec.ts" time="1.447">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\home.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="1" failures="0" skipped="0" time="1.362" errors="0">
+<testcase name="homepage loads" classname="tests\smoke\home.spec.ts" time="1.362">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\my-music.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="10" failures="0" skipped="0" time="13.627" errors="0">
+<testcase name="My Music Page › should load My Music page with correct title" classname="tests\smoke\my-music.spec.ts" time="1.261">
+</testcase>
+<testcase name="My Music Page › should display main heading" classname="tests\smoke\my-music.spec.ts" time="1.246">
+</testcase>
+<testcase name="My Music Page › should display content about music and programming" classname="tests\smoke\my-music.spec.ts" time="1.266">
+</testcase>
+<testcase name="My Music Page › should display &quot;Software Engineer by Day, Musician by Heart&quot; section" classname="tests\smoke\my-music.spec.ts" time="1.222">
+</testcase>
+<testcase name="My Music Page › should display information about Kowall Company" classname="tests\smoke\my-music.spec.ts" time="1.219">
+</testcase>
+<testcase name="My Music Page › should display information about Session band" classname="tests\smoke\my-music.spec.ts" time="1.71">
+</testcase>
+<testcase name="My Music Page › should display gallery with musical photos" classname="tests\smoke\my-music.spec.ts" time="1.452">
+</testcase>
+<testcase name="My Music Page › should have multiple images in gallery" classname="tests\smoke\my-music.spec.ts" time="1.527">
+</testcase>
+<testcase name="My Music Page › should display navigation menu" classname="tests\smoke\my-music.spec.ts" time="1.453">
+</testcase>
+<testcase name="My Music Page › should have working navigation links" classname="tests\smoke\my-music.spec.ts" time="1.271">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\navigation.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="4" failures="0" skipped="0" time="6.339" errors="0">
+<testcase name="Navigation - Smoke Tests › main navigation menu is visible" classname="tests\smoke\navigation.spec.ts" time="1.278">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigation contains home link" classname="tests\smoke\navigation.spec.ts" time="1.369">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to My Music page" classname="tests\smoke\navigation.spec.ts" time="1.184">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to courses/services page" classname="tests\smoke\navigation.spec.ts" time="2.508">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\projects.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="4" failures="0" skipped="0" time="7.93" errors="0">
+<testcase name="Projects Page - Smoke Tests › projects page loads" classname="tests\smoke\projects.spec.ts" time="1.568">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › projects section is visible" classname="tests\smoke\projects.spec.ts" time="2.736">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project items are displayed" classname="tests\smoke\projects.spec.ts" time="1.767">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project links are clickable" classname="tests\smoke\projects.spec.ts" time="1.859">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\sandbowes.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="6" failures="0" skipped="0" time="11.269" errors="0">
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes section loads" classname="tests\smoke\sandbowes.spec.ts" time="1.565">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes project title visible" classname="tests\smoke\sandbowes.spec.ts" time="2.559">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project description visible" classname="tests\smoke\sandbowes.spec.ts" time="1.524">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project gallery or images visible" classname="tests\smoke\sandbowes.spec.ts" time="1.864">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project details or specifications" classname="tests\smoke\sandbowes.spec.ts" time="1.797">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project demo or github link" classname="tests\smoke\sandbowes.spec.ts" time="1.96">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\services.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="firefox" tests="5" failures="0" skipped="0" time="8.686" errors="0">
+<testcase name="Services Page - Smoke Tests › services page loads" classname="tests\smoke\services.spec.ts" time="1.809">
+</testcase>
+<testcase name="Services Page - Smoke Tests › services section heading visible" classname="tests\smoke\services.spec.ts" time="1.797">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service items listed" classname="tests\smoke\services.spec.ts" time="1.592">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service descriptions visible" classname="tests\smoke\services.spec.ts" time="1.782">
+</testcase>
+<testcase name="Services Page - Smoke Tests › call to action visible" classname="tests\smoke\services.spec.ts" time="1.706">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\about.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="6" failures="0" skipped="0" time="8.586" errors="0">
+<testcase name="About Me Page - Smoke Tests › about page loads" classname="tests\smoke\about.spec.ts" time="1.457">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › about section heading visible" classname="tests\smoke\about.spec.ts" time="1.614">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › bio or introduction text visible" classname="tests\smoke\about.spec.ts" time="1.526">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › profile or author image visible" classname="tests\smoke\about.spec.ts" time="1.414">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › skills or expertise section" classname="tests\smoke\about.spec.ts" time="1.309">
+</testcase>
+<testcase name="About Me Page - Smoke Tests › social links in about section" classname="tests\smoke\about.spec.ts" time="1.266">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\contact.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="4" failures="0" skipped="0" time="5.862" errors="0">
+<testcase name="Contact - Smoke Tests › contact information is accessible" classname="tests\smoke\contact.spec.ts" time="1.389">
+</testcase>
+<testcase name="Contact - Smoke Tests › email contact is displayed on page" classname="tests\smoke\contact.spec.ts" time="1.41">
+</testcase>
+<testcase name="Contact - Smoke Tests › social media links are present" classname="tests\smoke\contact.spec.ts" time="1.579">
+</testcase>
+<testcase name="Contact - Smoke Tests › footer contains company information" classname="tests\smoke\contact.spec.ts" time="1.484">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\courses.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="4" failures="0" skipped="0" time="5.581" errors="0">
+<testcase name="Courses Page - Smoke Tests › courses page loads successfully" classname="tests\smoke\courses.spec.ts" time="1.337">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards are displayed" classname="tests\smoke\courses.spec.ts" time="1.36">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course cards contain course information" classname="tests\smoke\courses.spec.ts" time="1.392">
+</testcase>
+<testcase name="Courses Page - Smoke Tests › course description or details are visible" classname="tests\smoke\courses.spec.ts" time="1.492">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\home.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="1" failures="0" skipped="0" time="1.423" errors="0">
+<testcase name="homepage loads" classname="tests\smoke\home.spec.ts" time="1.423">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\my-music.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="10" failures="0" skipped="0" time="13.207" errors="0">
+<testcase name="My Music Page › should load My Music page with correct title" classname="tests\smoke\my-music.spec.ts" time="1.227">
+</testcase>
+<testcase name="My Music Page › should display main heading" classname="tests\smoke\my-music.spec.ts" time="1.337">
+</testcase>
+<testcase name="My Music Page › should display content about music and programming" classname="tests\smoke\my-music.spec.ts" time="1.497">
+</testcase>
+<testcase name="My Music Page › should display &quot;Software Engineer by Day, Musician by Heart&quot; section" classname="tests\smoke\my-music.spec.ts" time="1.471">
+</testcase>
+<testcase name="My Music Page › should display information about Kowall Company" classname="tests\smoke\my-music.spec.ts" time="1.222">
+</testcase>
+<testcase name="My Music Page › should display information about Session band" classname="tests\smoke\my-music.spec.ts" time="1.339">
+</testcase>
+<testcase name="My Music Page › should display gallery with musical photos" classname="tests\smoke\my-music.spec.ts" time="1.296">
+</testcase>
+<testcase name="My Music Page › should have multiple images in gallery" classname="tests\smoke\my-music.spec.ts" time="1.241">
+</testcase>
+<testcase name="My Music Page › should display navigation menu" classname="tests\smoke\my-music.spec.ts" time="1.296">
+</testcase>
+<testcase name="My Music Page › should have working navigation links" classname="tests\smoke\my-music.spec.ts" time="1.281">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\navigation.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="4" failures="0" skipped="0" time="6.611" errors="0">
+<testcase name="Navigation - Smoke Tests › main navigation menu is visible" classname="tests\smoke\navigation.spec.ts" time="2.003">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigation contains home link" classname="tests\smoke\navigation.spec.ts" time="1.47">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to My Music page" classname="tests\smoke\navigation.spec.ts" time="1.422">
+</testcase>
+<testcase name="Navigation - Smoke Tests › navigate to courses/services page" classname="tests\smoke\navigation.spec.ts" time="1.716">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\projects.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="4" failures="0" skipped="0" time="7.528" errors="0">
+<testcase name="Projects Page - Smoke Tests › projects page loads" classname="tests\smoke\projects.spec.ts" time="1.805">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › projects section is visible" classname="tests\smoke\projects.spec.ts" time="1.697">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project items are displayed" classname="tests\smoke\projects.spec.ts" time="2.11">
+</testcase>
+<testcase name="Projects Page - Smoke Tests › project links are clickable" classname="tests\smoke\projects.spec.ts" time="1.916">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\sandbowes.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="6" failures="0" skipped="0" time="12.372" errors="0">
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes section loads" classname="tests\smoke\sandbowes.spec.ts" time="2.144">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › sandbowes project title visible" classname="tests\smoke\sandbowes.spec.ts" time="2.2">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project description visible" classname="tests\smoke\sandbowes.spec.ts" time="1.973">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project gallery or images visible" classname="tests\smoke\sandbowes.spec.ts" time="1.953">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project details or specifications" classname="tests\smoke\sandbowes.spec.ts" time="1.875">
+</testcase>
+<testcase name="Sandbowes Project - Smoke Tests › project demo or github link" classname="tests\smoke\sandbowes.spec.ts" time="2.227">
+</testcase>
+</testsuite>
+<testsuite name="tests\smoke\services.spec.ts" timestamp="2026-01-31T18:38:01.251Z" hostname="webkit" tests="5" failures="0" skipped="0" time="9.091" errors="0">
+<testcase name="Services Page - Smoke Tests › services page loads" classname="tests\smoke\services.spec.ts" time="2.721">
+</testcase>
+<testcase name="Services Page - Smoke Tests › services section heading visible" classname="tests\smoke\services.spec.ts" time="1.522">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service items listed" classname="tests\smoke\services.spec.ts" time="1.728">
+</testcase>
+<testcase name="Services Page - Smoke Tests › service descriptions visible" classname="tests\smoke\services.spec.ts" time="1.575">
+</testcase>
+<testcase name="Services Page - Smoke Tests › call to action visible" classname="tests\smoke\services.spec.ts" time="1.545">
+</testcase>
+</testsuite>
+</testsuites>
