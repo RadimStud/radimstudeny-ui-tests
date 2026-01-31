@@ -1,0 +1,70 @@
+name: Scheduled UI Tests
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'  # Spustit každých 10 minut
+  workflow_dispatch:  # Možnost ručně spustit
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      - name: Run Playwright tests
+        run: npm test -- tests/smoke
+        continue-on-error: true
+
+      - name: Upload Playwright Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+      - name: Publish report to GitHub Pages
+        if: always()
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: playwright-report/
+
+      - name: Deploy report to GitHub Pages
+        if: always()
+        uses: actions/deploy-pages@v4
+
+      - name: Send Email Notification
+        if: always()
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: '🧪 Playwright Test Report - ${{ job.status }}'
+          to: RadimStudeny237@gmail.com
+          from: ${{ secrets.EMAIL_USERNAME }}
+          body: |
+            Test Run Report
+            ===============
+            
+            Status: ${{ job.status }}
+            Date: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+            
+            View detailed report: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+            
+            Branch: ${{ github.ref }}
+            Commit: ${{ github.sha }}
